@@ -1,2 +1,2 @@
 # MarisaMarkPortfolio
-Welcome to my most recent portfolio page! Feel free to look around and explore my most recent projects!
+Welcome to my portfolio page! Feel free to look around and explore my most recent projects!
