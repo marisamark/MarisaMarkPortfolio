@@ -1,5 +1,5 @@
 body {
-  background: url(images/leavesbackground.png);
+  background: url(images/background.png);
   background-size: cover;
   height: 100%;
   overflow: hidden;
@@ -7,7 +7,7 @@ body {
 
 
 h1, h2, h3, h4, h5, p, .nav-link {
-  color: 	#5F7F56
+  color: 	#5F7F56;
 }
 
 
