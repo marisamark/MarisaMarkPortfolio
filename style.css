@@ -1,3 +1,20 @@
+body {
+  background: url(images/leavesbackground.png);
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+h1, h2, h3, h4, h5, p, .nav-link {
+  color: 	#5F7F56
+}
+
+
+a:hover{
+  color:  #8DB18D;
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
 #aboutmetext {
