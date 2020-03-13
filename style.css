@@ -1,8 +1,7 @@
-body {
-  background: url(images/background.png);
+body, #webdesign, #create {
+  background: url("images/background.png");
   background-size: cover;
   height: 100%;
-  width: auto;
 
 }
 
