@@ -1,9 +1,29 @@
-body, #webdesign, #create {
+#aboutme, #contact {
   background: url("images/background1.jpg");
   background-size: cover;
   height: 100%;
+}
+
+#webdesign, body{
+  background: url("images/background1.jpg");
+  background-repeat: repeat-y;
+  background-size: contain;
+margin: auto;
+padding: 0px;
 
 }
+
+/* body {
+  background: url("images/background1.jpg");
+  background-repeat: repeat-y;
+  width: 100%;
+  height:100%;
+  background-position: center center;
+  margin:auto;
+  padding:0;
+
+} */
+
 
 
 h1, h2, h3, h4, h5, p, .nav-link, .card-title, .card-text {
