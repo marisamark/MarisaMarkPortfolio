@@ -40,6 +40,10 @@ a:hover{
   color:  #8DB18D;
 }
 
+/* #lookback {
+  width:960px;
+   height:569px;
+} */
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
 #aboutmetext {
@@ -52,6 +56,11 @@ body {
 margin: auto;
 padding: 0px;
 }
+
+/* #lookback {
+  width:960px;
+   height:569px;
+} */
   }
   
 /*   
@@ -61,6 +70,10 @@ Medium devices (landscape tablets, 768px and up) */
       font-size: 30pt;
 
     }
+    /* #lookback {
+      width:700px;
+       height:415px;
+    } */
     }
   
 /* small devices (phones, 600px and down)  */
@@ -69,5 +82,9 @@ Medium devices (landscape tablets, 768px and up) */
     font-size: 16pt;
 
   }
+  /* #lookback {
+    width:480px;
+     height:237px;
+  } */
     }
      
