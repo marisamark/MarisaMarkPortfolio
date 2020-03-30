@@ -25,6 +25,9 @@ padding: 0px;
 } */
 
 
+#lookback {
+  padding: 0px;
+}
 
 h1, h2, h3, h4, h5, p, .nav-link, .card-title, .card-text {
   color: 	#5F7F56;
@@ -40,10 +43,15 @@ a:hover{
   color:  #8DB18D;
 }
 
-/* #lookback {
-  width:960px;
-   height:569px;
-} */
+
+
+@media only screen and (max-width: 1024px) {
+  #lookback {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
 #aboutmetext {
@@ -57,10 +65,11 @@ margin: auto;
 padding: 0px;
 }
 
-/* #lookback {
-  width:960px;
-   height:569px;
-} */
+#lookback {
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
   }
   
 /*   
@@ -70,10 +79,11 @@ Medium devices (landscape tablets, 768px and up) */
       font-size: 30pt;
 
     }
-    /* #lookback {
-      width:700px;
-       height:415px;
-    } */
+
+    #lookback {
+      padding-left: 110px;
+      padding-right: 110px;
+    }
     }
   
 /* small devices (phones, 600px and down)  */
@@ -82,9 +92,9 @@ Medium devices (landscape tablets, 768px and up) */
     font-size: 16pt;
 
   }
-  /* #lookback {
-    width:480px;
-     height:237px;
-  } */
+  #lookback {
+    padding-left: 110px;
+    padding-right: 110px;
+  }
     }
      
