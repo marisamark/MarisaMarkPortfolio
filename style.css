@@ -45,6 +45,13 @@ a:hover{
 #aboutmetext {
   font-size: 35pt;
 }
+body {
+  background: url("images/backgroundmobile.png");
+  background-repeat: repeat-y;
+  background-size: contain;
+margin: auto;
+padding: 0px;
+}
   }
   
 /*   
