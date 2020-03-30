@@ -1,28 +1,21 @@
-#aboutme, #contact {
-  background: url("images/background1.jpg");
-  background-size: cover;
-  height: 100%;
-}
-
-#webdesign, body{
+#webdesign, body {
   background: url("images/background1.jpg");
   background-repeat: repeat-y;
   background-size: contain;
 margin: auto;
 padding: 0px;
-
+width: 100%;
 }
 
-/* body {
+#contact, #aboutme {
   background: url("images/background1.jpg");
-  background-repeat: repeat-y;
-  width: 100%;
-  height:100%;
-  background-position: center center;
-  margin:auto;
-  padding:0;
+  background-size: cover;
+  height: 100%;
+}
 
-} */
+#card1 {
+  margin-right: 100px;
+}
 
 
 #lookback {
@@ -50,6 +43,14 @@ a:hover{
     padding-left: 100px;
     padding-right: 100px;
   }
+  #contact, #aboutme{
+    background: url("images/background1.jpg");
+    background-repeat: repeat-y;
+    background-size: contain;
+  margin: auto;
+  padding: 0px;
+  width: 100%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -57,19 +58,21 @@ a:hover{
 #aboutmetext {
   font-size: 35pt;
 }
-body {
-  background: url("images/backgroundmobile.png");
-  background-repeat: repeat-y;
-  background-size: contain;
-margin: auto;
-padding: 0px;
-}
+
 
 #lookback {
   padding-left: 110px;
   padding-right: 110px;
 }
 
+#contact, #aboutme{
+  background: url("images/background1.jpg");
+  background-repeat: repeat-y;
+  background-size: contain;
+margin: auto;
+padding: 0px;
+width: 100%;
+}
   }
   
 /*   
@@ -84,6 +87,14 @@ Medium devices (landscape tablets, 768px and up) */
       padding-left: 110px;
       padding-right: 110px;
     }
+    #contact, #aboutme{
+      background: url("images/background1.jpg");
+      background-repeat: repeat-y;
+      background-size: contain;
+    margin: auto;
+    padding: 0px;
+    width: 100%;
+    }
     }
   
 /* small devices (phones, 600px and down)  */
@@ -92,9 +103,22 @@ Medium devices (landscape tablets, 768px and up) */
     font-size: 16pt;
 
   }
+
+  #aboutmeparagraph {
+    font-size: 10pt;
+  }
   #lookback {
     padding-left: 110px;
     padding-right: 110px;
   }
+  #webdesign, body, #contact, #aboutme {
+    background: url("images/backgroundmobile.png");
+    background-repeat: repeat-y;
+    background-size: contain;
+  margin: auto;
+  padding: 0px;
+  width: 100%;
+  }
+
     }
      
