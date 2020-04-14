@@ -39,7 +39,7 @@ a:hover{
 
 
 @media only screen and (max-width: 1024px) {
-  #lookback {
+  #lookback, #lamonicas {
     padding-left: 100px;
     padding-right: 100px;
   }
@@ -60,7 +60,7 @@ a:hover{
 }
 
 
-#lookback {
+#lookback, #lamonicas {
   padding-left: 110px;
   padding-right: 110px;
 }
@@ -83,7 +83,7 @@ Medium devices (landscape tablets, 768px and up) */
 
     }
 
-    #lookback {
+    #lookback, #lamonicas {
       padding-left: 110px;
       padding-right: 110px;
     }
@@ -107,7 +107,7 @@ Medium devices (landscape tablets, 768px and up) */
   #aboutmeparagraph {
     font-size: 10pt;
   }
-  #lookback {
+  #lookback, #lamonicas {
     padding-left: 110px;
     padding-right: 110px;
   }
