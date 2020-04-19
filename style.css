@@ -38,6 +38,7 @@ a:hover{
 
 
 
+
 @media only screen and (max-width: 1024px) {
   #lookback, #lamonicas {
     padding-left: 100px;
@@ -55,10 +56,6 @@ a:hover{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
-#aboutmetext {
-  font-size: 35pt;
-}
-
 
 #lookback, #lamonicas {
   padding-left: 110px;
@@ -78,11 +75,6 @@ width: 100%;
 /*   
 Medium devices (landscape tablets, 768px and up) */
   @media only screen and (max-width: 768px) {
-    #aboutmetext {
-      font-size: 30pt;
-
-    }
-
     #lookback, #lamonicas {
       padding-left: 110px;
       padding-right: 110px;
@@ -99,14 +91,6 @@ Medium devices (landscape tablets, 768px and up) */
   
 /* small devices (phones, 600px and down)  */
 @media only screen and (max-width: 480px) {
-  #aboutmetext {
-    font-size: 16pt;
-
-  }
-
-  #aboutmeparagraph {
-    font-size: 10pt;
-  }
   #lookback, #lamonicas {
     padding-left: 110px;
     padding-right: 110px;
